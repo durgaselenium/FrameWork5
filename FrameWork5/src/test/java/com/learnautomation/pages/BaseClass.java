@@ -75,8 +75,5 @@ logger.pass("Test Passed",MediaEntityBuilder.createScreenCaptureFromPath(Helper.
 reports.flush();
 Reporter.log("Test Completed>>>Reports Generated", true);
 }
-	
-	
-	
-	
+		
 }

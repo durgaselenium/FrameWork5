@@ -13,7 +13,7 @@ public LoginPage(WebDriver ldriver)
 this.driver=ldriver;	
 }
 
-@FindBy(name="username")WebElement uname;
+@FindBy(xpath="//input[@placeholder='Username']")WebElement uname;
 @FindBy(name="password")WebElement pass;
 @FindBy(xpath="//input[@type='submit'][@value='Login']")WebElement loginButton;
 
